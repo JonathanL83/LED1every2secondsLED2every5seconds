@@ -1,7 +1,7 @@
 #include "mbed.h"
 
-DigitalOut led1(PA_5); // Adjust this pin number for your board
-DigitalOut led2(PB_0); // Adjust this pin number for your board
+DigitalOut led1(LED1); // Adjust this pin number for your board
+DigitalOut led2(LED2); // Adjust this pin number for your board
 
 Ticker ticker_led1;
 Ticker ticker_led2;
